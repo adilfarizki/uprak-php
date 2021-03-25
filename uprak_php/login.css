@@ -1,0 +1,104 @@
+body {
+    background: -webkit-linear-gradient(bottom, #dff9fb, #c7ecee);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+#cardd {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 490px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+    margin-top: 50px !important;
+}
+#card-content {
+    padding: 12px 44px;
+}
+#card-title {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+.underline-title {
+    margin-top: -10px;
+    background: -webkit-linear-gradient(right, #dff9fb, #c7ecee);
+    height: 2px;
+    margin-left: 65px;
+    width: 110px;
+}
+.underline-title2 {
+    margin-top: -10px;
+    background: -webkit-linear-gradient(right, #dff9fb, #c7ecee);
+    height: 2px;
+    margin-left: 30px;
+    width: 180px;
+}
+a {
+    text-decoration: none;
+}
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+}
+#forgot-pass {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin-top: 5px;
+    margin-left: 250px;
+}
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: -webkit-linear-gradient(right, #dff9fb, #c7ecee);
+    height: 1px;
+    margin-left: 23px;
+    width: 80%;
+}
+.form-content {
+    width: 264px;
+    background: #ffff;
+    margin-left: 22px;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+#signup {
+    color: #c7ecee;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin-top: 10px;
+    text-align: center;
+}
+#submit-btn {
+    background: -webkit-linear-gradient(right, #95afc0, #c7ecee);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #95afc0;
+    cursor: pointer;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 30px;
+    transition: 0.25s;
+    width: 153px;
+}
+#submit-btn:hover {
+    box-shadow: 0px 1px 18px #95afc0;
+}
